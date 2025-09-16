@@ -1,0 +1,81 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  background: #f5f7fa;
+}
+
+/* Barra lateral */
+.sidebar {
+  width: 30%;
+  background: #d6e0f0;
+  padding: 20px;
+  text-align: center;
+}
+.sidebar img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+.sidebar h2 {
+  margin: 10px 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+.section-title {
+  margin-top: 30px;
+  font-size: 16px;
+  font-weight: bold;
+  border-bottom: 2px solid #555;
+  padding-bottom: 5px;
+  text-align: left;
+}
+.sidebar p, .sidebar li {
+  font-size: 14px;
+  text-align: left;
+}
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+.sidebar ul li {
+  margin: 5px 0;
+}
+
+/* Contenido principal */
+.main {
+  width: 70%;
+  padding: 30px;
+}
+.header {
+  background: #5d7bb0;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+}
+.header h1 {
+  margin: 0;
+  font-size: 24px;
+}
+.main-section {
+  margin-top: 30px;
+}
+.main-section h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #999;
+  padding-bottom: 5px;
+}
+.main-section ul {
+  list-style: none;
+  padding: 0;
+}
+.main-section ul li {
+  margin-bottom: 15px;
+}
+.main-section strong {
+  color: #444;
+}
